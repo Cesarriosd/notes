@@ -25,4 +25,27 @@ R²: Coefficient of determination, the square of the correlation between the obs
 
 ### Standard error of the regression
 
+This is related to the size of the average error that the model produces. We can compare this error to the sample mean of y to gain some perspective of the accuracy of the model. This is also used to create the confidence intervals.
+
+## Evaluating the regression model
+
+Residuals are the impredictable component of the associated observation.
+
+### ACF plot of residuals
+
+#### Breush-Godfrey test (LagrangeMultiplyier test fro serial correlation)
+
+It is used to test the joint hypothesis that there is no autocorrelation in the residuals up to a recatin specified order. A small p-value indicates ther is significant autocorrelation remaining in the residuals.
+
+This test is similar to Ljung-box test but designed to work with series.
+
+#### Histogram of the residuals
+
+It is important to check if the residuals are normally distributed
+
+#### Residual plots against predictors
+ You can plot the residuals against the predictors and if everthing is ok there must not be a pattern there. In other case, some non linear relationship will remain in the data and must be corrected. 
+ You can also plot residuals against some variable that is not included in the model and if this shows a pattern you could try to include it in the model maybe in a non linear way.
+ 
+####
 
