@@ -198,5 +198,12 @@ Any pair of correlated predictos will have some level of confounding, but we wou
 
 Confounding is not a problem for forecasting. However, it becomes a problem with scenario forecasting as the scenarios should take account of the relationships between predictors. It is also a problem if some of historical analysis of the contributions of various predictors is required.
 
-#### 
+#### Multicollinearity and forecasting
+
+Multicollinearity occurs when similar information is provided by two or more of the predictor variables in a multiple regression. It can occur when two predictors are highly correlated with each other. Multicollinearity can also occur when a linear conbination of predictors is highly correlated with another linear combination of predictors. 
+
+If there is a high correlation, then the estimation of the regression coefficients is computationally difficult. 
+
+Forecast will be unreliable if the values of the future predictors are outside the range of the historical values of the predictors. This is specially problematic when multicollinearity is present.
+
 
