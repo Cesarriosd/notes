@@ -190,5 +190,13 @@ A better apporach is to use the piecewise specification introduced above and fit
 
 ### 5.9 Correlation
 
+It is important to understand that correlations are usefull for forecasting, even when there is no causal relationship between the two varaibles, or when the correlation runs in the opposite direction to the model. However, often a better model is possible if a causale mechanism can be determined. A better model for drownings will probably include temperatures and visitors numbers and exclude ice-cream sales. A good forecasting model for rainfall will not include xyclists, but it will include atmospheric observations.
 
+#### Confounded predictors
+
+Any pair of correlated predictos will have some level of confounding, but we would not normally describe them as confounded unless there was a relatively high level of correlation between them.
+
+Confounding is not a problem for forecasting. However, it becomes a problem with scenario forecasting as the scenarios should take account of the relationships between predictors. It is also a problem if some of historical analysis of the contributions of various predictors is required.
+
+#### 
 
