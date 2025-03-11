@@ -184,7 +184,11 @@ Recall that in order to perfomr a logarithmic transformation to a variable, all 
 
 #### Forecasting with nonlinear trend
 
-The simplest way to
+The simplest way to fit a nonlinear trend component is using cuadratic of higher order trends. But this is not recommended because with extrapolation the results does not make sense.
+A better apporach is to use the piecewise specification introduced above and fit a piecewise linear trend which bends at some point. we can think of this as a nonlinear trend constructed of linear pieces.
+
+
+### 5.9 Correlation
 
 
 
