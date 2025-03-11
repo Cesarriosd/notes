@@ -162,7 +162,17 @@ Steps:
 
 ### 5.6 Forecasting with regression
 
-For this 
+#### Ex-ante versus ex-post forecasts
+
+Ex-ante forecast are those that are made using only the information that is available in advance. This approach is used to make real forecast. There is a lot un uncertainty, because you don't know the future. An example of this approach is the forecast to next quarter sales.
+
+Ex-post forecast is used to evaluate the model and refine it. This approach uses the information of the predicted variable to evaluate the performance of the model.
+
+#### Scenario based forecasting
+
+In this case the forecaster assumes possible scenarios for the predictor variables that are of interest. This is usefull to evaluate the output in the interest variable subject to certaint conditions (scnario).
+
+#### Prediction intervals
 
 
 
