@@ -174,5 +174,17 @@ In this case the forecaster assumes possible scenarios for the predictor variabl
 
 #### Prediction intervals
 
+For this we assume that errors are normally distributed. We are more certain about our forecasts when considering values of the predictor variable close to its simple mean.
+
+### 5.8 Non-linear regression
+
+Some time the relation between predictor and predicted is non-linear and for this the simplest way to capture the relationshinp is transforming the forecast variable y and or the predictor variable x before estimating a regression model. While this provides a non linear functional form, the model is still linear in the parameters. The most commonly used transformation is the natural logarithm.
+
+Recall that in order to perfomr a logarithmic transformation to a variable, all of its observations must to be grater that zero. In the case taht variable x constains zero we can add one and later do the transformation. 
+
+#### Forecasting with nonlinear trend
+
+The simplest way to
+
 
 
